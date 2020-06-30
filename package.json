@@ -1,8 +1,8 @@
 {
 	"name": "local-addon-xdebug-vscode",
-	"productName": "XDebug + VSCode",
-	"version": "1.0.0",
-	"description": "One-click configurator for XDebug + VSCode. Adapted for VSCode from https://github.com/getflywheel/local-addon-xdebug-phpstorm.",
+	"productName": "Xdebug + VSCode",
+	"version": "1.0.3",
+	"description": "One-click configurator for Xdebug + VSCode. Adapted for VSCode from https://github.com/getflywheel/local-addon-xdebug-phpstorm.",
 	"renderer": "lib/renderer.js",
 	"main": "lib/main.js",
 	"icon": "icon.svg",

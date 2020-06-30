@@ -18,16 +18,16 @@ export default function(context) {
             await enableXDebugPHPini(site, serverUuid);
 
             notifier.notify({
-                title: 'XDebug + VSCode',
-                message: `Local's XDebug Run Configuration and Server has been added to VSCode.`,
+                title: 'Xdebug + VSCode',
+                message: `Local's Xdebug Run Configuration and Server has been added to VSCode.`,
             });
         } catch (e) {
             notifier.notify({
-                title: 'XDebug + VSCode Error',
+                title: 'Xdebug + VSCode Error',
                 message: `Unable to add Run Configuration and Server.`,
             });
 
-            electron.dialog.showErrorBox('XDebug + VSCode Error', e.stack);
+            electron.dialog.showErrorBox('Xdebug + VSCode Error', e.stack);
         }
     });
 }

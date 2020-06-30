@@ -8,7 +8,7 @@ export default function (context) {
 
 	hooks.addContent('siteInfoUtilities', (site) => {
 		return (
-			<TableListRow key="vscode-xdebug-integration" label="XDebug + VSCode">
+			<TableListRow key="vscode-xdebug-integration" label="Xdebug + VSCode">
 				<TextButton
 					style={{paddingLeft: 0}}
 					onClick={(event) => {

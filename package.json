@@ -6,9 +6,10 @@
 	"renderer": "lib/renderer.js",
 	"main": "lib/main.js",
 	"icon": "icon.svg",
-	"bgColor": "#333333",
+	"bgColor": "#f5fdf7",
 	"author": "Pixel Jar <info@pixeljar.com>",
 	"license": "MIT",
+	"slug": "xdebug-vscode",
 	"scripts": {
 		"build": "tsc",
 		"watch": "yarn run build --watch",

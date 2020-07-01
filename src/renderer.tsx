@@ -21,7 +21,7 @@ export default function (context) {
 				</TextButton>
 
 				<p>
-					<small>The run configuration will be added to the VS Code project settings in this site's root directory.</small>
+					<small>The run configuration will be added to the VS Code project settings in this site's app/public directory.</small>
 				</p>
 			</TableListRow>
 		);

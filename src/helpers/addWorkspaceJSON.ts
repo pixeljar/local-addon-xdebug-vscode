@@ -14,7 +14,7 @@ export default async function addWorkspaceJSON (site: Local.Site, serverUuid: st
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Listen for XDebug",
+			"name": "Listen for Xdebug (Local)",
 			"type": "php",
 			"request": "launch",
 			"port": 9000
@@ -32,9 +32,9 @@ export default async function addWorkspaceJSON (site: Local.Site, serverUuid: st
 
 console.log( site.paths );
 
-	await fs.ensureDir(path.join(site.longPath, '.vscode'));
+	await fs.ensureDir(path.join(site.longPath, 'app/public', '.vscode'));
 
-    await fs.writeFile(path.join(site.longPath, '.vscode', 'launch.json'), vscodeJSON);
+    await fs.writeFile(path.join(site.longPath, 'app/public', '.vscode', 'launch.json'), vscodeJSON);
 }
 
 

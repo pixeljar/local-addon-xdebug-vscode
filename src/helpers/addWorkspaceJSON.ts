@@ -19,7 +19,9 @@ export default async function addWorkspaceJSON (site: Local.Site, serverUuid: st
 			"request": "launch",
 			"port": 9000,
 			"xdebugSettings": {
+				"max_children": 128,
 				"max_data": 1024,
+				"max_depth": 3,
 				"show_hidden": 1
 			}
 		},
@@ -31,7 +33,9 @@ export default async function addWorkspaceJSON (site: Local.Site, serverUuid: st
 			"cwd": "\${fileDirname}",
 			"port": 9000,
 			"xdebugSettings": {
+				"max_children": 128,
 				"max_data": 1024,
+				"max_depth": 3,
 				"show_hidden": 1
 			}
 		}

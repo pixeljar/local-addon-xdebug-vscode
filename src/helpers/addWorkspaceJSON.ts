@@ -14,6 +14,18 @@ export default async function addWorkspaceJSON (site: Local.Site, serverUuid: st
 	"version": "0.2.0",
 	"configurations": [
 		{
+			"name": "Listen for Xdebug 3.0 (Local)",
+			"type": "php",
+			"request": "launch",
+			"port": 9003,
+			"xdebugSettings": {
+				"max_children": 128,
+				"max_data": 1024,
+				"max_depth": 3,
+				"show_hidden": 1
+			}
+		},
+		{
 			"name": "Listen for Xdebug (Local)",
 			"type": "php",
 			"request": "launch",

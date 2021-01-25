@@ -14,7 +14,8 @@ export default async function enableXDebugPHPini (site: Local.Site, serverUuid: 
 xdebug.scream = 1
 xdebug.show_local_vars = 1
 xdebug.remote_autostart = 1
-xdebug.remote_connect_back = 1`;
+xdebug.remote_connect_back = 1
+xdebug.idekey = VSCODE`;
 
 	await fs.ensureDir(path.join(site.paths.confTemplates, 'php'));
 

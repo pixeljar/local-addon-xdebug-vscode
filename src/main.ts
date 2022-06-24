@@ -1,6 +1,6 @@
 import * as Local from '@getflywheel/local';
 import * as LocalMain from '@getflywheel/local/main';
-import uuidv4 from 'uuid/v4';
+import {v4 as uuidv4} from 'uuid';
 import addWorkspaceJSON from './helpers/addWorkspaceJSON';
 import enableXDebugPHPini from './helpers/enableXDebugPHPini';
 

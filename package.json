@@ -1,7 +1,7 @@
 {
 	"name": "local-addon-xdebug-vscode",
 	"productName": "Xdebug + VS Code",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"description": "One-click configurator for Xdebug + VSCode. Adapted for VSCode from https://github.com/getflywheel/local-addon-xdebug-phpstorm.",
 	"renderer": "lib/renderer.js",
 	"main": "lib/main.js",
@@ -16,14 +16,13 @@
 		"prepare": "npm run build"
 	},
 	"devDependencies": {
-		"@getflywheel/local": "^5.6.1",
-		"@types/electron": "^1.6.10",
+		"@getflywheel/local": "^6.4.3",
 		"@types/fs-extra": "^8.0.1",
 		"@types/jsdom": "^12.2.4",
 		"typescript": "^3.7.5"
 	},
 	"dependencies": {
-		"@getflywheel/local-components": "^12.1.0",
+		"@getflywheel/local-components": "^17.6.0",
 		"fs-extra": "^8.1.0",
 		"jsdom": "^16.0.1",
 		"react": "^16.12.0",

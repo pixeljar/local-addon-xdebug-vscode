@@ -22,7 +22,7 @@
 		"typescript": "^3.7.5"
 	},
 	"dependencies": {
-		"@getflywheel/local-components": "^17.6.0",
+		"@getflywheel/local-components": "^17.6.2",
 		"fs-extra": "^8.1.0",
 		"jsdom": "^16.0.1",
 		"react": "^16.12.0",

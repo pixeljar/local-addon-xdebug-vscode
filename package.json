@@ -37,6 +37,6 @@
 		"uuid"
 	],
 	"engines": {
-		"local-by-flywheel": "^6.6.0"
+		"local-by-flywheel": "^6.5.2"
 	}
 }

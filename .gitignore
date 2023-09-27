@@ -1,4 +1,8 @@
 .vscode
+
+# Output/build
+lib
+
 .DS_Store
 *.tgz
 

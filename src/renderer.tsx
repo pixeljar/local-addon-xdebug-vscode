@@ -1,10 +1,10 @@
 import React from 'react';
 import { TextButton, TableListRow } from '@getflywheel/local-components';
-import { ipcRenderer } from 'electron';
+import { AddonRendererContext } from '@getflywheel/local/renderer';
 
-export default function (context) {
+export default function (context: AddonRendererContext) {
 
-	const { hooks } = context;
+	const { hooks, electron } = context;
 
 	hooks.addContent('siteInfoUtilities', (site) => {
 		return (
@@ -12,7 +12,7 @@ export default function (context) {
 				<TextButton
 					style={{paddingLeft: 0}}
 					onClick={(event) => {
-						ipcRenderer.send('add-vscode-xdebug-config', site.id);
+						electron.ipcRenderer.send('add-vscode-xdebug-config', site.id);
 
 						event.target.setAttribute('disabled', 'true');
 					}}

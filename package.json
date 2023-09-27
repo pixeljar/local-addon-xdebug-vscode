@@ -16,7 +16,7 @@
 		"prepare": "npm run build"
 	},
 	"devDependencies": {
-		"@getflywheel/local": "^6.6.0",
+		"@getflywheel/local": "^8",
 		"@types/fs-extra": "^8.0.1",
 		"@types/jsdom": "^12.2.4",
 		"typescript": "^3.7.5"
